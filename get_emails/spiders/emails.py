@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 import re
 import csv
+
 import scrapy
 from scrapy.loader import ItemLoader
-from get_emails.items import GetEmailsItem
 from w3lib.html import replace_escape_chars
 from scrapy.loader.processors import MapCompose
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
+
+from get_emails.items import GetEmailsItem
+
 
 class EmailsSpider(CrawlSpider):
     name = 'emails'
