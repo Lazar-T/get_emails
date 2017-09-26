@@ -1,28 +1,28 @@
 get_emails
 =========
 
-###About
+### About
 Scraper built with [Scrapy](http://scrapy.org/) framework. Scrapes email addresses from list of site url/s. Designed to crawl whole domain.
 
-###Installing
+### Installing
 
 
-######Linux
+###### Linux
 
 ```
 pip install scrapy
 ```
 
-######Mac
+###### Mac
 
 http://doc.scrapy.org/en/latest/intro/install.html#mac-os-x
 
 
-######Windows
+###### Windows
 
 http://doc.scrapy.org/en/latest/intro/install.html#windows
 
-###Running
+### Running
 
 To run this scraper you will need to create a csv file called `emails.csv` and save it into root directory. File should be populated with url/s in this layout:
 
